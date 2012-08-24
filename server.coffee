@@ -1,3 +1,4 @@
+assets  = require 'connect-assets'
 express = require 'express'
 path    = require 'path'
 http    = require 'http'
@@ -18,6 +19,8 @@ app.configure ->
   app.use express.bodyParser()
   app.use express.methodOverride()
 
+  app.use express.static path.join app.get('root'), 'public'
+  app.use assets()
   app.use app.router
 
 app.configure 'development', ->

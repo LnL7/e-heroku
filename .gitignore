@@ -2,3 +2,5 @@ tmp/
 
 # NodeJS
 node_modules/
+
+*.js

@@ -2,13 +2,15 @@
 (function() {
   var app, assets, express, http, path, routes, server;
 
-  assets = require('connect-assets');
-
-  express = require('express');
+  http = require('http');
 
   path = require('path');
 
-  http = require('http');
+  express = require('express');
+
+  assets = require('connect-assets');
+
+  require('express-namespace');
 
   app = express();
 

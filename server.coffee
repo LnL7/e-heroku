@@ -1,7 +1,9 @@
-assets  = require 'connect-assets'
-express = require 'express'
-path    = require 'path'
 http    = require 'http'
+path    = require 'path'
+express = require 'express'
+assets  = require 'connect-assets'
+
+require 'express-namespace'
 
 
 

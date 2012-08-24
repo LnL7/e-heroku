@@ -3,6 +3,7 @@
   "version": "0.0.0-001",
   "dependencies": {
     "express": "~3.0.0rc3",
+    "express-namespace": "~0.1.1",
     "jade": "~0.27.2",
     "markdown": "~0.4.0",
     "connect-assets": "~2.2.1",

@@ -2,6 +2,8 @@
   "name": "e-heroku",
   "version": "0.0.0-001",
   "dependencies": {
+    "express": "~3.0.0rc3",
+    "jade": "~0.27.2"
   },
   "devDependencies": {
     "coffee-script": "~1.3.3"

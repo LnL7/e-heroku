@@ -2,3 +2,4 @@
 
 
 ./node_modules/.bin/coffee -c *.coffee
+./node_modules/.bin/coffee -c routes/*.coffee
